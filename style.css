@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding: 25px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.main-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav__list {
+  margin-left: 244px;
+  display: flex;
+  gap: 115px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #030305;
+}
+
+.main-nav__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #030305;
+  text-decoration: none;
+}
+
+.first-screen__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #030305;
+  margin: 0;
+  margin-bottom: 40px;
+  max-width: 502px;
+}
+
+.car__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+}
+
+.description__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #030305;
+}
+
+.first-screen__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  /* or 88px */
+
+  color: #030305;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.first-screen {
+  background: url(img/background.png) no-repeat center center;
+  padding-top: 104px;
+  padding-bottom: 154px;
+}
+
+.cars__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 24px;
+}
+
+.black-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  background: #030305;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.first-screen__link {
+  max-width: 334px;
+}
+
+.car__descriptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.car__description {
+  text-align: center;
+}
+
+.description__image {
+  margin-bottom: 11px;
+}
+
+.description__title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.description__text {
+  margin: 0;
+}
+
+.car__button {
+  max-width: 384px;
+  margin-top: 13px;
+  margin-bottom: 100px;
+}
+
+.ca__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #030305;
+}
+
+.ca__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #5d5d5f;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.ca__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 344px;
+  padding: 22px 18px;
+  gap: 15px;
+  position: relative;
+}
+
+.ca__input {
+  padding: 22px 18px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ca__image {
+  position: absolute;
+  z-index: -1;
+  right: -157px;
+  bottom: 0;
+  
+}
+
+.ca {
+  position: relative;
+padding-bottom: 121px;
+}
+
+.main-footer {
+  border-top: 1px solid #E5E5E5 ;
+}
+
+.main-footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.main-footer__imge .main-footer__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #030305;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
